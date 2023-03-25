@@ -27,7 +27,7 @@ def create_table(df):
     return table
 
 
-tree_df = pd.read_csv('trees_summary.csv')
+tree_df = pd.read_csv('https://raw.githubusercontent.com/dsimband/DATA608_M4_DASH/main/trees_summary.csv')
 tree_df['borocode'] = tree_df['borocode'].apply(str)
 tree_df['spccode'] = tree_df['spccode'].apply(str)
 
