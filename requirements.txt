@@ -11,3 +11,4 @@ MarkupSafe==2.1.2
 plotly==5.13.1
 tenacity==8.2.2
 Werkzeug==2.2.3
+dash_mantine_components==0.12.0

@@ -1,1 +1,2 @@
-web: gunicorn DATA608_module4_Visualization_Python:application
+web: gunicorn DATA608_module4_Visualization_Python:server
+
