@@ -18,6 +18,8 @@ import dash_bootstrap_components as dbc
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
+server = app.server
+
 
 def create_table(df):
     columns, values = df.columns, df.values
